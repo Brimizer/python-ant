@@ -18,7 +18,7 @@ stick.open()
 
 # Prepare system reset message
 msg = message.Message()
-msg.set_type(MESSAGE_SYSTEM_RESET)
+msg.set_msg_id(MESSAGE_SYSTEM_RESET)
 msg.set_payload('\x00')
 
 # Send
